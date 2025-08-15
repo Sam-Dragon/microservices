@@ -2,10 +2,12 @@
 
 <details>
 <summary>Decomposition</summary>
+
 - By Business Capabilities
 - By Sub Domain
 - Strangler
 - Sidecar / Mesh
+
 </details>
 
 <details>
