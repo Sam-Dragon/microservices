@@ -2,11 +2,23 @@
 
 <details>
 <summary>Decomposition</summary>
+- It is responsible for breaking down a monolith to microservice
 
-- By Business Capabilities
-- By Sub Domain
-- Strangler
-- Sidecar / Mesh
+> By Business Capabilities / Sub Domain
+- decompose by business functionality
+- decompose based on DDD [Domanin Driven Design] which is sub-domain   
+
+> **Strangler**
+- Incrementally refactor a monolithic application into a microservices architecture.
+- It involves gradually replacing specific functionalities of the monolith with new, independently deployable microservices
+
+> Sidecar 
+- It is reponsible for segregating the primary functionality with secondary concerns and making it dependent
+- It allows loose coupling, resource sharing, low latency, reduces code complexity and duplication
+- It is useful in logging, monitoring, security, configuration, proxy / routing
+
+> Service Mesh
+-  
 
 </details>
 
